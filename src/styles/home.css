@@ -1,0 +1,40 @@
+.first {
+    display: flex;
+}
+
+.content-top {
+    background-color: var(--color-purple);
+    width: 350px;
+    padding: 0;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    box-shadow: 0 0 20px var(--color-shadow-box-black);
+}
+
+.content-top h2, p {
+    margin: 10px;
+    display: flex;
+}
+
+.content {
+    display: block;
+    justify-content: left;
+    width: 450px;
+    height: 350px;
+    background-color: var(--color-dark-purple);
+    padding-top: 50px;
+    box-shadow: 0 0 20px var(--color-shadow-box-black);
+}
+
+.content p {
+    margin-bottom: 30px;
+}
+
+.right-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+}

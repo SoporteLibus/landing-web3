@@ -1,0 +1,99 @@
+.cubo {
+    display: inline-flex;
+}
+
+.box div {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.box {
+    -webkit-animation-name: animation;
+    animation-name: animation;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 100px 100px 0;
+    transform-origin: 100px 100px 0;
+    margin: 0;
+}
+
+.box .one {
+    -webkit-transform: translateZ(100px);
+    transform: translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.box .two {
+    -webkit-transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.box .three {
+    -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.box .four {
+    -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.box .five {
+    -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.box .six {
+    -webkit-transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(100px);
+    box-shadow: 0 0 10px var(--color-shadow-box);
+}
+
+.view {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -15%;
+    right: 10%;
+}
+
+@keyframes animation {
+
+    from {
+        
+    }
+    to {
+        
+    }
+
+    16% {
+        -webkit-transform: rotateY(-90deg);
+    }
+
+    33% {
+        -webkit-transform: rotateY(-90deg) rotateZ(135deg);
+    }
+
+    50% {
+        -webkit-transform: rotateY(225deg) rotateZ(135deg);
+    }
+
+    66% {
+        -webkit-transform: rotateY(135deg) rotateX(135deg);
+    }
+
+    83% {
+        -webkit-transform: rotateX(135deg);
+    }
+}
