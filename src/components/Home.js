@@ -8,13 +8,12 @@ export default function Home() {
                 <div className="content-top">
                     <h2>KeyCoDev</h2>
                     <p>
-                    Novedades de Seguridad
+                    Tecnologias del futuro:
                     </p>
                 </div>
                 <div className="content">
                     <p>
-                            Tecnologias del futuro:
-                            la web 3.0 promete cambiar la
+                        La web 3.0 promete cambiar la
                         forma de hacer negocios para siempre.
                     </p>
                     <p>
