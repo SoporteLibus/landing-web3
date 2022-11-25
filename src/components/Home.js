@@ -6,20 +6,24 @@ export default function Home() {
         <div className="first">
             <div className="panel-left">
                 <div className="content-top">
-                    <h2>KeyCoDev</h2>
+                    <h2>Boton de pago-.<span>&#160;</span></h2>
                     <p>
-                    Tecnologias del futuro:
+                    Comision cero
                     </p>
                 </div>
                 <div className="content">
                     <p>
-                        La web 3.0 promete cambiar la
-                        forma de hacer negocios para siempre.
+                        La Web 3.0 cambia, fundamentalmente,
+                        la forma en que se desarrollan los negocios.
                     </p>
                     <p>
-                        Ofrecemos una alternativa diferente, cero comisión , un
-                        boton de pago seguro y de facil adaptacion
-                        a cada pagina web.
+                        Las tecnologías Web 3.0 pueden ayudar a mejorar
+                        la transparencia y la confianza entre las empresas
+                        y sus clientes al crear un registro de transacciones a
+                        prueba de manipulaciones a través de la tecnología blockchain.
+                    </p>
+                    <p>
+                        Reciba el pago de sus productos sin intermediarios y a costo 0.
                     </p>
                 </div>
             </div>

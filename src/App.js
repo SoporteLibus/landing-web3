@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Home/>
+        <video muted autoPlay loop>
+            <source src="/video/galaxy.mp4" type="video/mp4" />
+        </video>
+        <div className="capa"></div>
+        <Home />
       </header>
     </div>
   );
