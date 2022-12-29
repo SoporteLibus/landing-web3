@@ -6,14 +6,14 @@ export default function Home() {
         <div className="first">
             <div className="panel-left">
                 <div className="content-top">
-                    <h2>Boton de pago-.<span>&#160;</span></h2>
+                    <h2><span>Boton de pago.</span></h2>
                     <p>
                     Comision cero
                     </p>
                 </div>
                 <div className="content">
                     <p>
-                        La Web 3.0 cambia, fundamentalmente,
+                        La Web 3.0 cambia, fundamentalmente
                         la forma en que se desarrollan los negocios.
                     </p>
                     <p>

@@ -20,11 +20,13 @@
 }
 
 .content-top h2 span {
-    position: absolute;
-    right: 0;
-    background: var(--color-purple);
-    border-left: 2px solid #000;
-    animation: maquina 4s infinite alternate steps(14);
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid #000;
+    width: 13ch;
+    animation: typing 2s steps(13), blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 .content {
@@ -51,11 +53,14 @@
     height: 430px;
 }
 
-@keyframes maquina {
+@keyframes typing {
     from {
-        width: 100%;
-    }
-    to {
         width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-right: transparent;
     }
 }
